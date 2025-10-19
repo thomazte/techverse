@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFuture — Lançamentos Eletrônicos Originais com Entrega Rápida</title>
+    <meta name="description" content="Celulares, notebooks e fones com garantia e envio para todo o Brasil. Pague no Pix com desconto.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container head">
+            <a class="logo" href="#">TechFuture</a>
+            <nav class="nav">
+                <a href="#mais-vendidos">Mais Vendidos</a>
+                <a href="#beneficios">Vantagens</a>
+                <a href="#faq">FAQ</a>
+                <a class="btn btn-small" href="#cta">Comprar Agora</a>
+            </nav>
+             <button id="menuBtn" aria-label="Abrir menu" class="hamburger">☰</button>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1>Atualize seu setup sem drama e sem demora!</h1>
+                <p>Eletrônicos originais, preço justo e envio rápido. Pague no Pix e ganhe 5% de desconto.</p>
+                <div class="cta-row">
+                    <a id="cta" class="btn" href="https://wa.me/5511999999999?text=Quero%20comprar%20na%20TechVerse" target="_blank" rel="noopener">Comprar no WhatsApp</a>
+                    <a class="btn ghost" href="#mais vendidos">Ver ofertas</a>
+                </div>
+                <p class="selos">Garantia 12 meses • Nota 4,9/5 • Envio para todo o Brasil</p>
+            </div>
+            <figure class="hero-media">
+                <img src="img/destaque.jpg" alt="Produto em destaque" loading="eager">
+            </figure>
+        </div>
+    </section>
+
+    <section id="mais-vendidos" class="produtos">
+        <div class="container">
+            <h2>Mais Vendidos</h2>
+
+            <div class="filtros" role="group" aria-label="Filtros por categoria">
+                <button class="chip active" data-filter="all">Todos</button>
+                <button class="chip" data-filter="celulares">Celulares</button>
+                <button class="chip" data-filter="notebooks">Notebooks</button>
+                <button class="chip" data-filter="audio">Áudio</button>
+                <button class="chip" data-filter="acessorios">Acessórios</button>
+            </div>
+
+            <div class="grid-produtos">
+                <article class="card produto" data-cat="celulares">
+                    <img src="img/celular.jpg" alt="Samsung Galaxy S25 Ultra 256GB" loading="lazy">
+                    <h3>Samsung Galaxy S25 Ultra 256GB</h3>
+                    <p class="desc">Tela 6.9" • 12GB RAM • Câmera Quádrupla de 200+50+10+50MP</p>
+                    <div class="preco">
+                        <span class="de">R$ 6.999,00</span>
+                        <span class="por">R$ 5.599,20</span>
+                        <span class="pix">R$ 5.319,24 no Pix</span>
+                    </div>
+                    <a class="btn w100" href="https://wa.me/5511999999999?text=Quero%20comprar%20o%20Samsung%20Galaxy%20S25%20Ultra%20256GB" target="_blank" rel="noopener">Comprar no WhatsApp</a>
+                </article>
+
+                <article class="card produto" data-cat="audio">
+                    <img src="img/fone.jpg" alt="JBL Reflect Flow PRO" loading="lazy">
+                    <h3>JBL Reflect Flow PRO</h3>
+                    <p class="desc">Fones de ouvido esportivos sem fio com cancelamento de ruído</p>
+                    <div class="preco">
+                        <span class="de">R$ 899,00</span>
+                        <span class="por">R$ 719,20</span>
+                        <span class="pix">R$ 683,24 no Pix</span>
+                    </div>
+                    <a class="btn w100" href="https://wa.me/5511999999999?text=Quero%20comprar%20o%20JBL%20Reflect%20Flow%20PRO" target="_blank" rel="noopener">Comprar no WhatsApp</a>
+                </article>
+
+                <article class="card produto" data-cat="notebooks">
+                    <img src="img/notebook.jpg" alt="Notebook Acer Nitro V15 ANV15-51-73E9" loading="lazy">
+                    <h3>Notebook Acer Nitro V15 ANV15-51-73E9</h3>
+                    <p class="desc">Intel Core i7 • 16GB RAM • 1TB SSD • GTX 1650</p>
+                    <div class="preco">
+                        <span class="de">R$ 8.999,00</span>
+                        <span class="por">R$ 7.199,20</span>
+                        <span class="pix">R$ 6.839,24 no Pix</span>
+                    </div>
+                    <a class="btn w100" href="https://wa.me/5511999999999?text=Quero%20comprar%20o%20Notebook%20Acer%20Nitro%20V15%20ANV15-51-73E9" target="_blank" rel="noopener">Comprar no WhatsApp</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="beneficios">
+        <div class="container">
+            <h2>Vantagens TechFuture</h2>
+            <ul class="grid-beneficios">
+                <li>Produtos originais e nota fiscal</li>
+                <li>Garantia de 12 meses</li>
+                <li>Pix com desconto e parcelamento</li>
+                <li>Envio em 24–48h para todo o Brasil</li>
+                <li>Suporte real no WhatsApp</li>
+                <li>Troca fácil em até 7 dias</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="depoimentos">
+    <div class="container">
+      <h2>Clientes satisfeitos</h2>
+      <div class="grid-deps">
+        <blockquote>“Chegou em 2 dias e lacrado. Atendimento rápido.”<span>— Karina • São Paulo</span></blockquote>
+        <blockquote>“Notebook impecável e preço abaixo do shopping.”<span>— Diego • Recife</span></blockquote>
+        <blockquote>“Comprei 3 fones para a equipe. Todos amaram.”<span>— Lúcia • Curitiba</span></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container cta-flex">
+      <div>
+        <h2>Pronto para fechar negócio?</h2>
+        <p>Atendimento imediato e envio rápido. Sem enrolação.</p>
+      </div>
+      <a class="btn btn-big" href="https://wa.me/55SEUNUMERO?text=Quero%20comprar%20agora" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="container">
+      <h2>Dúvidas frequentes</h2>
+      <details>
+        <summary>Os produtos são originais?</summary>
+        <p>Sim. Todos com nota fiscal e garantia do fabricante.</p>
+      </details>
+      <details>
+        <summary>Quanto tempo para envio?</summary>
+        <p>Postamos em até 48h úteis após a confirmação do pagamento.</p>
+      </details>
+      <details>
+        <summary>Tem desconto no Pix?</summary>
+        <p>Sim, mostramos o valor com desconto em cada produto.</p>
+      </details>
+      <details>
+        <summary>Como funciona a troca?</summary>
+        <p>Você tem 7 dias para solicitar, seguindo o CDC. Suporte via WhatsApp.</p>
+      </details>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container foot">
+      <p>© 2025 TechVerse • CNPJ 12.345.678/91011-12 • <a href="#">Política de Privacidade</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
