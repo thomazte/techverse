@@ -53,3 +53,16 @@ landing-eletronicos/
 ├── notebook.jpg
 ├── fone.jpg
 └── destaque.jpg
+
+---
+
+## 👨🏻‍💻 Autor  
+**Thomaz Arthur Correia de Oliveira**  
+📚 Estudante de *Análise e Desenvolvimento de Sistemas*  
+💼 Projeto desenvolvido para o portfólio pessoal  
+
+---
+
+## 🔗 Conecte-se  
+🌐 [GitHub](https://github.com/thomazte)  
+💼 [LinkedIn](https://www.linkedin.com/in/thomaz-arthur-a2a95b145/)
