@@ -75,6 +75,13 @@ body {
     font-size: 1.15rem;
     letter-spacing: 0.3px;
 }
+.nav .btn {
+  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  color: #001018;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
 .nav a {
     color: var(--muted);
     text-decoration: none;
@@ -150,7 +157,7 @@ body {
 .card .img-box {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   transition: transform 0.3s ease;
 }
 .card .img-box img:hover {transform: scale(1.05);}
@@ -243,4 +250,36 @@ details p{color:#cbd5e1}
   .hamburger{display:block}
   .hero-grid{grid-template-columns:1fr}
   .hero-media{order:-1}
+}
+
+/* Área fixa para todas as fotos do card */
+.card .img-box{
+  /* escolha UMA opção de proporção: */
+
+  /* A) altura fixa (boa quando quer controlar a linha de texto abaixo) */
+  height: 220px;
+
+  /* B) OU proporção fixa (troque 4/3 por 16/9 ou 1/1 se preferir quadrado) */
+  /* aspect-ratio: 4 / 3; */
+
+  background: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;            /* dá um respiro pra imagens muito “grudadas” */
+}
+
+/* Agora sim: aplica no IMG, não no container */
+.card .img-box img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;       /* não corta, mantém proporção */
+  border-radius: 8px;
+  transition: transform .3s ease;
+}
+
+/* Efeito hover preservado */
+.card .img-box img:hover{
+  transform: scale(1.05);
 }

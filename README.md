@@ -4,12 +4,12 @@ Landing page desenvolvida para uma loja fictícia de eletrônicos chamada **Tech
 O objetivo é apresentar produtos, aplicar filtros simples e gerar conversões via **WhatsApp**.
 
 🔗 **Acesse o site online (GitHub Pages):**  
-https://github.com/thomazte/landing-eletronicos
+https://github.com/thomazte/techverse
 
 ---
 
 ## 📸 Preview
-*(adicione uma captura de tela aqui — ex: `assets/img/preview.jpg`)*
+[![Preview da Landing Page](img/preview.png)](https://github.com/thomazte/techverse)
 
 ---
 
@@ -52,5 +52,4 @@ landing-eletronicos/
 ├── celular.jpg
 ├── notebook.jpg
 ├── fone.jpg
-├── smartwatch.jpg
 └── destaque.jpg
